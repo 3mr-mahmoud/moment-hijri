@@ -11,7 +11,7 @@
 (function (root, factory) {
 	/* global define */
 	if (typeof define === 'function' && define.amd) {
-		define(['moment'], function (moment) {
+		define(['moment/moment'], function (moment) {
 			root.moment = factory(moment)
 			return root.moment
 		})
